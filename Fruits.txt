@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+enum Fruits {
+	APPELE,
+	LEMON,
+	MANDARIN;
+}
+main () {}
+Scanner scanner = new Scanner (System.in);
+String fruit = scanner.nextLine();
+
+//vyvedit tot frukt kotoryj vveli;
+Fruit f = Fruit.valueOf(fruit);
+if (f != null) sysout(f)
+
+//Foreach
+for (Fruits f : Fruits.values()) 
+	if (f.name().equals(fruit)) sysout(fruit);
+
+//switch vsio s cistogo lista;
+Fruits f = Fruis.MANDARIN;
+switch (f) {
+	case APPLE : sysout()	break;
+	case LEMON : sysout()	break;
+	case MANDARIN : sysout()	break;
+	trow 
+}
